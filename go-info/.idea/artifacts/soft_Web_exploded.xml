@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="soft:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/soft_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="soft/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="soft" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/soft/WebRoot/WEB-INF/lib/xwork-2.0.4.jar" />
+          <element id="library" level="module" name="sqljdbc4.jar" module-name="soft" />
+          <element id="library" level="module" name="freemarker-2.3.8.jar" module-name="soft" />
+          <element id="library" level="module" name="commons-logging-1.0.4.jar" module-name="soft" />
+          <element id="library" level="module" name="struts2-core-2.0.11.jar" module-name="soft" />
+          <element id="library" level="module" name="ognl-2.6.11.jar" module-name="soft" />
+          <element id="library" level="module" name="mysql-connector-java-5.1.45-bin.jar" module-name="soft" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
