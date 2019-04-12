@@ -42,10 +42,10 @@ public class LogInOutservlet extends HttpServlet {
 			int t=Integer.parseInt((String)(session.getAttribute("type")));
 			if(t==1)
 	            request.getRequestDispatcher("/index1.jsp").forward(request,response);
-	            else if(t==2)
-	                request.getRequestDispatcher("/index2.jsp").forward(request,response);
-	            else if(t==3)
-	                request.getRequestDispatcher("/index3.jsp").forward(request,response);
+			else if(t==2)
+				request.getRequestDispatcher("/index2.jsp").forward(request,response);
+			else if(t==3)
+				request.getRequestDispatcher("/index3.jsp").forward(request,response);
 
 		}//返回登录页面
 		else{						//已经登录
@@ -80,5 +80,7 @@ public class LogInOutservlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request,response);
 	}
+
+
 
 }
