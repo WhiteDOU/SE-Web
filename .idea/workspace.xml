@@ -189,8 +189,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/soft/WebRoot/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="4213" column="64" selection-start-line="4213" selection-start-column="64" selection-end-line="4213" selection-end-column="64" />
+            <state relative-caret-position="323">
+              <caret line="4207" column="1" lean-forward="true" selection-start-line="4207" selection-start-column="1" selection-end-line="4207" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -373,7 +373,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555242458446" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555243336047" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -493,12 +493,12 @@
       <updated>1554988302008</updated>
       <workItem from="1554988315679" duration="2675000" />
       <workItem from="1555061272352" duration="1028000" />
-      <workItem from="1555069921352" duration="3603000" />
+      <workItem from="1555069921352" duration="3799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12962000" />
+    <option name="totallyTimeSpent" value="13158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -721,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/soft/WebRoot/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="4213" column="64" selection-start-line="4213" selection-start-column="64" selection-end-line="4213" selection-end-column="64" />
+        <state relative-caret-position="323">
+          <caret line="4207" column="1" lean-forward="true" selection-start-line="4207" selection-start-column="1" selection-end-line="4207" selection-end-column="1" />
         </state>
       </provider>
     </entry>
