@@ -1,33 +1,33 @@
 package com.db;
 import java.sql.*;
 public class DB {
-		private Connection con;           //connection¶ÔÏó
-		private PreparedStatement pstm;   //........¶ÔÏó
+		private Connection con;           //connectionï¿½ï¿½ï¿½ï¿½
+		private PreparedStatement pstm;   //........ï¿½ï¿½ï¿½ï¿½
 		private String user="root";
-		private String password="";
+		private String password="980711";
 		private String className="com.mysql.jdbc.Driver";
 		private String url="jdbc:mysql://localhost:3306/db_book?characterEncoding=utf-8";
 		public DB(){
 			try{
 				Class.forName(className);
 			}catch(ClassNotFoundException e){
-				System.out.println("¼ÓÔØÊ§°Ü");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½");
 				e.printStackTrace();
 			}
 		}
-		public Connection getCon(){               //»ñÈ¡Á´½Ó
+		public Connection getCon(){               //ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½
 			try{
 				con=DriverManager.getConnection("jdbc:mysql://localhost:3306/db_book?characterEncoding=utf-8",user,password);
 			}catch(SQLException e){
-				System.out.println("Á´½ÓÊ§°Ü");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½");
 				con=null;
 				e.printStackTrace();
 			}
 			return con;
 		}
-		public void doPstm(String sql,Object[] params){                      //¶ÔÊý¾Ý¿âÔöÉ¾²é¸Ä
+		public void doPstm(String sql,Object[] params){                      //ï¿½ï¿½ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½
 			if(sql!=null && !sql.equals("")){
-				if (params == null )params = new Object[0];           //ÐÂ½¨object
+				if (params == null )params = new Object[0];           //ï¿½Â½ï¿½object
 				getCon();
 				if(con!=null){
 					try{
@@ -39,7 +39,7 @@ public class DB {
 						}
 						pstm.execute();
 					}catch(SQLException e){
-						System.out.println("doPostm·½·¨´íÎó£¡");          
+						System.out.println("doPostmï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");          
 						e.printStackTrace();
 					}
 				}
@@ -48,10 +48,10 @@ public class DB {
 		
 		
 		
-		public ResultSet getRs() throws SQLException{                     //·Å»ØResultSet¶ÔÏó
+		public ResultSet getRs() throws SQLException{                     //ï¿½Å»ï¿½ResultSetï¿½ï¿½ï¿½ï¿½
 			return pstm.getResultSet();
 		}
-		public int getCount() throws SQLException{                          //·µ»ØÊÜgetResultSet£¨£©Ó°ÏìµÄ¼ÇÂ¼Êý
+		public int getCount() throws SQLException{                          //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½getResultSetï¿½ï¿½ï¿½ï¿½Ó°ï¿½ï¿½Ä¼ï¿½Â¼ï¿½ï¿½
 			return pstm.getUpdateCount();
 		}
 		public void closed(){
@@ -59,7 +59,7 @@ public class DB {
 				if(pstm!=null)
 					pstm.close();			
 			}catch(SQLException e){
-				System.out.println("¹Ø±Õpstm¶ÔÏóÊ§°Ü£¡");
+				System.out.println("ï¿½Ø±ï¿½pstmï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½");
 				e.printStackTrace();
 			}
 			try{
@@ -67,7 +67,7 @@ public class DB {
 					con.close();
 				}
 			}catch(SQLException e){
-				System.out.println("¹Ø±Õcon¶ÔÏóÊ§°Ü£¡");
+				System.out.println("ï¿½Ø±ï¿½conï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½");
 				e.printStackTrace();
 			}
 		}

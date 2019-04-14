@@ -39,7 +39,7 @@
     </div>
     <div class="header_line"></div>
     <div class="banner">
-      <div id="banner" class="dv_5"><a href="" style=" background:url(images/banner1.png) center center no-repeat; display: block; z-index: 1; " class="d1"></a><a href="" style=" background:url(images/banner2.png) center center no-repeat; display: block; z-index: 1; " class="d1"></a><a href="" style=" background:url(images/banner3.png) center center no-repeat; display: block; z-index: 1; " class="d1"></a>
+      <div id="banner" class="dv_5"><a href="" style=" background:url(images/pic6_1.png) center center no-repeat; display: block; z-index: 1; background-size:80%; " class="d1"></a><a href="" style=" background:url(images/pic5_1.png) center center no-repeat; display: block; z-index: 1; background-size:80%;" class="d1"></a><a href="" style=" background:url(images/pic4_1.png) center center no-repeat; display: block; z-index: 1;background-size:80%; " class="d1"></a>
         <div id="banner_id" class="d2">
           <table cellspacing="0" cellpadding="0">
             <tr>
@@ -63,19 +63,19 @@
           <li class="first"><a href="club1.html" class="pr">
               <div class="tit">社团在线</div>
               <div class="entit">SOCIETY</div>
-              <div class="pa tip_img_1"><img src="images/tip_1.png" alt=""/></div></a></li>
+              <div class="pa tip_img_1"><img src="images/group.png" style="width :100%; height: 100%;" alt=""/></div></a></li>
           <li><a href="activity1.html" class="pr">
               <div class="tit">活动信息</div>
               <div class="entit">ACTIVITY</div>
-              <div class="pa tip_img_2"><img src="images/tip_2.png" alt=""/></div></a></li>
+              <div class="pa tip_img_2"><img src="images/tickets.png" style="width :100%; height: 100%;"alt=""/></div></a></li>
           <li><a href="competetion.html" class="pr">
               <div class="tit">竞赛列表</div>
               <div class="entit">COMPETITION</div>
-              <div class="pa tip_img_3"><img src="images/tip_3.png" alt=""/></div></a></li>
-          <li><a href="checkservlet" class="pr">
+              <div class="pa tip_img_3"><img src="images/contest.png" style="width :100%; height: 100%;"alt=""/></div></a></li>
+		  <li><a href="checkservlet" class="pr">
               <div class="tit">活动审核</div>
               <div class="entit">LOGOUT</div>
-              <div class="pa tip_img_4"><img src="images/tip_4.png" alt=""/></div></a></li>
+              <div class="pa tip_img_4"><img src="images/star_group.png" style="width :100%; height: 100%;"alt=""/></div></a></li>
         </ul>
       </div>
     </div>

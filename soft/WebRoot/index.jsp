@@ -17,8 +17,8 @@
     <div class="s_header w">
       <div class="s_header_top w">
         <div class="header_top w1000 auto">
-          <div class="header_top_fl fl">东大活动墙校内活动信息发布系统</div>
-          <div class="header_top_fr fr"><span class="header_tel dib">欢迎使用！</span>
+          <div class="header_top_fl fl">Go Info</div>
+          <div class="header_top_fr fr"><span class="header_tel dib">Welcome！</span>
             <div class="cb"></div>
           </div>
           <div class="cb"></div>
@@ -29,8 +29,8 @@
           <div class="logo fl"><a href="index.jsp"><img src="images/logo.png" alt="" width="200" height="69"/></a></div>
           <div class="nav fr">
             <ul>
-              <li class="pr"><li id="www"><li><a href="index.jsp">首页</a></li>
-              <form action="LogInOutservlet"><li class="pr fr"><li id="www"><li><a href="login.jsp">登陆</a></li>
+              <li class="pr"><li id="www"><li><a href="index.jsp">Home</a></li>
+              <form action="LogInOutservlet"><li class="pr fr"><li id="www"><li><a href="login.jsp">Login</a></li>
               </form>
             </ul>
           </div>
@@ -38,9 +38,9 @@
         </div>
       </div>
     </div>
-    <div class="header_line"></div>
+
     <div class="banner">
-      <div id="banner" class="dv_5"><a href="" style=" background:url(images/banner1.png) center center no-repeat; display: block; z-index: 1; " class="d1"></a><a href="" style=" background:url(images/banner2.png) center center no-repeat; display: block; z-index: 1; " class="d1"></a><a href="" style=" background:url(images/banner3.png) center center no-repeat; display: block; z-index: 1; " class="d1"></a>
+      <div id="banner" class="dv_5"><a href="" style=" background:url(images/pic6_1.png) center center no-repeat; display: block; z-index: 1; background-size:80%; " class="d1"></a><a href="" style=" background:url(images/pic5_1.png) center center no-repeat; display: block; z-index: 1; background-size:80%;" class="d1"></a><a href="" style=" background:url(images/pic4_1.png) center center no-repeat; display: block; z-index: 1;background-size:80%; " class="d1"></a>
         <div id="banner_id" class="d2">
           <table cellspacing="0" cellpadding="0">
             <tr>
@@ -64,19 +64,19 @@
           <li class="first"><a href="club1.html" class="pr">
               <div class="tit">社团在线</div>
               <div class="entit">SOCIETY</div>
-              <div class="pa tip_img_1"><img src="images/tip_1.png" alt=""/></div></a></li>
+              <div class="pa tip_img_1"><img src="images/group.png" style="width :100%; height: 100%;" alt=""/></div></a></li>
           <li><a href="activity1.html" class="pr">
               <div class="tit">活动信息</div>
               <div class="entit">ACTIVITY</div>
-              <div class="pa tip_img_2"><img src="images/tip_2.png" alt=""/></div></a></li>
+              <div class="pa tip_img_2"><img src="images/tickets.png" style="width :100%; height: 100%;"alt=""/></div></a></li>
           <li><a href="competetion.html" class="pr">
               <div class="tit">竞赛列表</div>
               <div class="entit">COMPETITION</div>
-              <div class="pa tip_img_3"><img src="images/tip_3.png" alt=""/></div></a></li>
+              <div class="pa tip_img_3"><img src="images/contest.png" style="width :100%; height: 100%;"alt=""/></div></a></li>
           <li><a href="login.jsp" class="pr">
               <div class="tit">个人中心</div>
               <div class="entit">PERSONAL</div>
-              <div class="pa tip_img_4"><img src="images/tip_4.png" alt=""/></div></a></li>
+              <div class="pa tip_img_4"><img src="images/profile.png" style="width :100%; height: 100%;"alt=""/></div></a></li>
         </ul>
       </div>
     </div>

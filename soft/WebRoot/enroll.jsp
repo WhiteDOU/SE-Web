@@ -17,8 +17,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <div class="s_header w">
       <div class="s_header_top w">
         <div class="header_top w1000 auto">
-          <div class="header_top_fl fl">东大活动墙校内活动信息发布系统</div>
-          <div class="header_top_fr fr"><span class="header_tel dib">欢迎使用！</span>
+          <div class="header_top_fl fl">Go Info</div>
+          <div class="header_top_fr fr"><span class="header_tel dib">Welcome！</span>
             <div class="cb"></div>
           </div>
           <div class="cb"></div>
@@ -29,8 +29,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
           <div class="logo fl"><a href="index.jsp"><img src="images/logo.png" alt="" width="200" height="69"//></a></div>
           <div class="nav fr">
             <ul>
-              <li class="pr"><li id="www"><li><a href="index1.jsp">首页</a></li>
-              <li class="pr fr"><li id="www"><li><a href="index.jsp">登陆</a></li>
+              <li class="pr"><li id="www"><li><a href="index1.jsp">Home</a></li>
+              <li class="pr fr"><li id="www"><li><a href="index.jsp">Login</a></li>
             </ul>
           </div>
           <div class="cb"></div>
